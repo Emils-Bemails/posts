@@ -8,7 +8,7 @@
 <body>
     <h1>Create new Post</h1>
 
-    <form action="/posts" method="get">
+    <form action="/posts" method="post">
         @csrf
         <div>
             <label for="title">Virstraksts </label>
